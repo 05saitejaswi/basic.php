@@ -1,0 +1,43 @@
+<html>
+<body>
+<form action="p20_input.php" method="post">
+
+Name : <input type=text name="txt_name" /> <br>
+
+Password:<input type=password name=pwd_pass /> <br>
+
+Gender: <input type=radio name=rdo_gen value="male" /> MALE
+<input type=radio name=rdo_gen value="female" /> FEMALE <br>
+
+City : <input type=checkbox name="chk_city[]" value="chennai"> Chennai
+<input type=checkbox name="chk_city[]" value="Bangalore"> Bangalore
+<input type=checkbox name="chk_city[]" value="Hyderabad"> Hyderabad <br>
+
+Graduation : 
+<select name="dwn_grad">
+	<option value="BA"> BA </option>
+	<option value="Bsc"> Bsc </option>
+	<option value="BCA"> BCA </option>
+	<option value="BCom"> BCom </option>
+	<option value="BE"> BE </option>
+</select> </br>
+
+Preferred Job : 
+<select name="mdn_prefjob[]" multiple>
+	<option value="Developer"> Developer </option>
+	<option value="Programmer"> Programmer </option>
+	<option value="Engineer"> Engineer </option>
+	<option value="Tester"> Tester </option>
+	<option value="Designer"> Designer </option>
+	<option value="Administrator"> Administrator </option>
+	<option value="Analyst"> Analyst </option>
+</select> </br>
+
+<textarea name="txa_comment">
+</textarea> </br>
+
+<input type=submit value="   Go   " />
+
+</form>
+</body>
+</html>
